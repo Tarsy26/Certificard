@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+body {
+background-image: url("https://thumbs.dreamstime.com/b/escuro-fundo-azul-com-c%C3%B3digo-do-programa-82982146.jpg");
+  no-repeat fixed;
+  font-family: "Strait", sans-serif;
+}
+.container {
+  color: #1C1C1C;
+  margin: 64px;
+  background: #ECF4FF;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px white, 1px 1px 10px black, 3px 3px 15px black;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+ max-width: 160px;
+  border-radius: 460px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+   font-weight: normal;
+  font-size: 24px;  
+}
+
+.tema button {
+align-self: flex-end;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #0E1D2F;
+}
+
+.projetos {
+  background: #1b2838;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  padding: 16px 12px;
+  color: #c8c38f;
+  font-size: 24px;
+}
+
+.projetos ol {
+  list-style-type: none;
+  line-height: 45px;
+}
+
+.projetos ol > li {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.projetos ol > li:hover {
+  color: #94de6f;
+  text-shadow: 0 0 5px white;
+}
+
+.projetos h2 {
+  margin-left: 20px;
+  margin-bottom: -5px;
+  font-size: 36px;
+  color: #a6c88f;
+}
+.list-projeto {
+  list-style: none;
+}
+.lista-links {
+  display: none;
+}
+
+.link-icon:hover {
+  color: #a6c88f;
+}
+.link-icon {
+  font-size: 1.2rem;
+  color: #292f37;
+  transition: color 0.2s;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+  
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .portfolio {
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  color: #FFFFFF;
+  background: #1C1C1C;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #F7F7F7;
+}
